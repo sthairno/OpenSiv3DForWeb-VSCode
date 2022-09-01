@@ -1,0 +1,13 @@
+{
+    "name": "Siv3DWeb",
+    "dockerFile": "Dockerfile",
+    "build": {
+        "args": {
+            "USERNAME": "vscode"
+        }
+    },
+    "remoteUser": "vscode",
+    "extensions": [
+        "ms-vscode.cpptools"
+    ]
+}
